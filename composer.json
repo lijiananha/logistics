@@ -1,0 +1,24 @@
+{
+    "name": "lijiananha/logistics",
+    "authors": [
+        {
+            "name": "邓小树",
+            "email": "841866877@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lijiananha\\Logistics\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lijiananha\\Logistics\\ServiceProvider"
+            ]
+        }
+    }
+}
